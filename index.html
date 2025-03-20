@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Sylvère AVAT</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Sylvère AVAT</h1>
+            <p>Data Scientist</p>
+            <p>📍 1 rue Marcel Allégot, 92190 Meudon, France | 📧 <a href="mailto:sylvere68@hotmail.fr">sylvere68@hotmail.fr</a> | 📞 06 52 61 56 62</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#experience">Expérience</a></li>
+            <li><a href="#education">Formation</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="profil" class="section">
+        <h2>Profil Professionnel</h2>
+        <p>Fort de plus de 10 ans d'expérience professionnelle dans des environnements internationaux, j'ai développé une expertise en intelligence artificielle, gestion de projet et analyse des risques dans le secteur des semi-conducteurs.</p>
+    </section>
+    
+    <section id="expertise" class="section">
+        <h2>Expertise</h2>
+        <ul>
+            <li>🔹 Analyse des risques et des politiques liées à l’intelligence artificielle et aux semi-conducteurs</li>
+            <li>🔹 Gestion des données et application du Machine Learning</li>
+            <li>🔹 Programmation : Python, JavaScript, Bash</li>
+            <li>🔹 Gestion de projet Agile</li>
+        </ul>
+    </section>
+    
+    <section id="experience" class="section">
+        <h2>Expérience Professionnelle</h2>
+        <div class="job">
+            <h3>Chef de projet Data Science - Orange Business Services</h3>
+            <span>2023 - 2024</span>
+            <p>Gestion de projets en Data Science et coordination d'équipes pluridisciplinaires.</p>
+        </div>
+        <div class="job">
+            <h3>Data Scientist - Orange Business Services</h3>
+            <span>2021 - 2023</span>
+            <p>Développement et optimisation de modèles d’IA pour des déploiements industriels.</p>
+        </div>
+        <div class="job">
+            <h3>Ingénieur Intelligence Artificielle - Orange Telecom</h3>
+            <span>2019 - 2021</span>
+            <p>Développement de modèles IA en collaboration avec des équipes de recherche.</p>
+        </div>
+    </section>
+    
+    <section id="education" class="section">
+        <h2>Formation et Certifications</h2>
+        <ul>
+            <li><strong>2024</strong> - Spécialisation en Stratégie, Harvard Business School</li>
+            <li><strong>2024</strong> - AI Business Strategy, MIT Sloan School of Management</li>
+            <li><strong>2023</strong> - Master II en Relations Internationales et Géopolitique, IRIS Paris</li>
+            <li><strong>2019</strong> - Maîtrise en Data Science, Microsoft AI School Paris</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+        <p id="response-message"></p>
+    </section>
+</body>
+</html>
